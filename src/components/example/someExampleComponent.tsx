@@ -9,7 +9,7 @@ const SomeExampleComponent: React.FC<SomeExampleComponentProps> = () => {
     return (
         <div className={styles.container}>
             <h1>Header</h1>
-            <p>My supercool component</p>
+            <p>My ultracool component</p>
         </div>
     )
 }
