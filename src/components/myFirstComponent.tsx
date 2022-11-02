@@ -5,7 +5,7 @@ type MyFirstComponentProps = {
 }
 
 const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
-  const [time, setTime] = useState(new Date().toLocaleTimeString())
+  const [time, setTime] = useState(new Date().toLocaleTimeString()) // this gets the time
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -14,7 +14,7 @@ const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
 
     return clearTimeout(timer)
 
-  }, [time])
+  }, [time]) // this is for getting the time to print out on page, needs refresh
 
   return (
     <div>
@@ -22,7 +22,7 @@ const MyFirstComponent: React.FC<MyFirstComponentProps> = () => {
       <p>This is my first <i><b>Great</b></i> component 😎</p>
       <hr></hr>
       <p>
-        {/* {time} */}
+        {time} - Refresh the page for the real time
       </p>
     </div>
   )
