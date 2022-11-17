@@ -9,10 +9,9 @@ type ClickCountProps = {
 const ClickCount: React.FC<ClickCountProps> = ({ initialValue, callback }) => {
   const [count, setCount] = useState(initialValue) 
 
-
   return (
-    <div className={styles.container}>
-      <button onClick={() => {
+    <div className={styles.container} >
+      <button className={styles.button} onClick={() => {
         setCount(count + 1)
         callback()
       }}>
