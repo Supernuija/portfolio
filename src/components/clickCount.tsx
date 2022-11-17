@@ -1,4 +1,5 @@
 import React , { useState } from 'react'
+import styles from './clickCount.module.scss'
 
 type ClickCountProps = {
   initialValue: number,
@@ -10,7 +11,7 @@ const ClickCount: React.FC<ClickCountProps> = ({ initialValue, callback }) => {
 
 
   return (
-    <div>
+    <div className={styles.container}>
       <button onClick={() => {
         setCount(count + 1)
         callback()
