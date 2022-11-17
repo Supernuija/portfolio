@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.424b5b2d.css",
-    "main.js": "./static/js/main.8a61682c.js",
+    "main.css": "./static/css/main.984f3dbb.css",
+    "main.js": "./static/js/main.74ad423c.js",
     "static/js/787.1ed0c42c.chunk.js": "./static/js/787.1ed0c42c.chunk.js",
     "static/media/HUMIDOR.pdf": "./static/media/HUMIDOR.f8962f6e82f0f0234575.pdf",
     "index.html": "./index.html",
-    "main.424b5b2d.css.map": "./static/css/main.424b5b2d.css.map",
-    "main.8a61682c.js.map": "./static/js/main.8a61682c.js.map",
+    "main.984f3dbb.css.map": "./static/css/main.984f3dbb.css.map",
+    "main.74ad423c.js.map": "./static/js/main.74ad423c.js.map",
     "787.1ed0c42c.chunk.js.map": "./static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.424b5b2d.css",
-    "static/js/main.8a61682c.js"
+    "static/css/main.984f3dbb.css",
+    "static/js/main.74ad423c.js"
   ]
 }
