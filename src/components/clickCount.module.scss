@@ -1,0 +1,24 @@
+.container {
+   width: 50%;
+    height: 50px;
+    background: rgb(198, 255, 105);
+    display: flex;
+    flex-directio n: column;
+    justify-content: center;
+    align-items: center;
+  
+    h1 {
+      font-size: 52px;
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px #2600ff;
+    }
+  
+    p {
+      font-weight: 700;
+      font-size: 25px;
+      color: rgb(255, 255, 255);
+      text-shadow: 2px 2px #2600ff;
+      background: rgb(0, 123, 255);
+      padding: 10px;
+    }
+  }
