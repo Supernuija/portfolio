@@ -6,7 +6,7 @@ import ClickCount from './components/clickCount';
 
 const App: React.FC = () => {
   const LogKek = () => {
-    console.log('kek')
+    console.log('kek') // this writes to the console
   }
   return (
     <div>
