@@ -8,8 +8,8 @@
     align-items: center;
   }
   .button {
-    width: 140px;
-    height: 45px;
+    width: 150px;
+    height: 52px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
     text-transform: uppercase;
@@ -17,7 +17,7 @@
     font-weight: 500;
     color: #000;
     background-color: #fff;
-    border: none;
+    border: 5px solid rgb(205, 205, 205);
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 1);
     transition: all 0.3s ease 0s;

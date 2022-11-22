@@ -11,7 +11,7 @@ const ClickCount: React.FC<ClickCountProps> = ({ initialValue, callback }) => {
 
   return (
     <div className={styles.container} >
-      <button className={styles.button} onClick={() => {
+      <button className={styles.button} onMouseEnter={() => {
         setCount(count + 1)
         callback()
       }}>
