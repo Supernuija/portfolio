@@ -1,5 +1,6 @@
 import React from 'react'
-import '../../navbar/navbar.module.scss'
+import { Link } from 'react-router-dom'
+import styles from './navbar.module.scss'
 
 type NavbarProps = {
 
@@ -7,8 +8,11 @@ type NavbarProps = {
 
 const Navbar: React.FC<NavbarProps> = () => {
   return (
-    <div>
-      Navbar
+    <div className={styles.container}>
+      <p className={styles.link}>
+      <Link to ="/">Home</Link>
+      <Link to ="First">My First Component</Link>
+      </p>
     </div>
   )
 }

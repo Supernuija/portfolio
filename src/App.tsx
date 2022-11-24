@@ -3,6 +3,7 @@ import MyFirstComponent from './components/myFirstComponent';
 import SomeExampleComponent from './components/example/someExampleComponent'
 import MyPdfFiles from './assets/HUMIDOR.pdf'; //react-app-env.d.ts must be created declare for pdf-type. 
 import ClickCount from './components/clickCount';
+import Navbar from './navbar/navbar';
 
 const App: React.FC = () => {
   const LogKek = () => {
