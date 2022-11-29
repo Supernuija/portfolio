@@ -4,7 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.module.scss'
 import {
-  HashRouter as Router, 
+  HashRouter as Router, // use this to solve url problem in github
   Routes,
   Route,
 } from "react-router-dom";
@@ -17,7 +17,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router> {/* change this from browser router to plain router */}
       <Navbar/>
       <Routes>
         <Route path='/' element={<App />}></Route>

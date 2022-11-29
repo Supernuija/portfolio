@@ -13,7 +13,7 @@ const Navbar: React.FC<NavbarProps> = () => {
       <p className={styles.link}>
       <Link to ="/">Home</Link>
       <Link to ="First">My First Component</Link>
-      <a href={MyPdfFiles}>PDF</a>
+      <a href={MyPdfFiles} target='_blank' rel="noreferrer">Humidor</a>
       </p>
     </div>
   )
