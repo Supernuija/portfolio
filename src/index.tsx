@@ -4,7 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.module.scss'
 import {
-  BrowserRouter,
+  HashRouter as Router, 
   Routes,
   Route,
 } from "react-router-dom";
@@ -17,14 +17,14 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <Router>
       <Navbar/>
       <Routes>
         <Route path='/' element={<App />}></Route>
         <Route path='example' element={<SomeExampleComponent />} />
         <Route path='/first' element={<MyFirstComponent />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   </React.StrictMode>
 );
 
