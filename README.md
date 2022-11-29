@@ -1,4 +1,5 @@
 # Getting Started with Create React App
+[![Build and Deploy](https://github.com/Supernuija/portfolio/actions/workflows/BuildAndDeploy.yml/badge.svg)](https://github.com/Supernuija/portfolio/actions/workflows/BuildAndDeploy.yml)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
