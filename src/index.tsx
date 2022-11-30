@@ -21,7 +21,6 @@ root.render(
       <Navbar/>
       <Routes>
         <Route path='/' element={<App />}></Route>
-        <Route path='example' element={<SomeExampleComponent />} />
         <Route path='/first' element={<MyFirstComponent />} />
       </Routes>
     </Router>

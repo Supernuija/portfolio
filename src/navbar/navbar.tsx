@@ -19,4 +19,4 @@ const Navbar: React.FC<NavbarProps> = () => {
   )
 }
 
-export default Navbar
+export default Navbar // check that this is defined in const module above 
