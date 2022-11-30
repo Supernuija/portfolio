@@ -8,7 +8,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import SomeExampleComponent from './components/example/someExampleComponent';
+// import SomeExampleComponent from './components/example/someExampleComponent';
 import MyFirstComponent from './components/myFirstComponent';
 import Navbar from './navbar/navbar';
 
