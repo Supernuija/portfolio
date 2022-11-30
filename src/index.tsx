@@ -4,7 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.module.scss'
 import {
-  HashRouter as Router, // use this to solve url problem in github
+  BrowserRouter as Router, // use HashRouter to solve url problem in github if not in Firebase
   Routes,
   Route,
 } from "react-router-dom";
