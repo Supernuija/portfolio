@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = () => {
     <div className={styles.container}>
       <p className={styles.link}>
       <Link to ="/">Home</Link>
-      <Link to ="First">My First X Component</Link>
+      <Link to ="First">My First XY Component</Link>
       <a href={MyPdfFiles} target='_blank' rel="noreferrer">Humidor</a>
       </p>
     </div>
