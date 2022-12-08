@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    height: 100px;
+    background: rgb(228, 229, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    width: 150px;
+    height: 52px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: 5px solid rgb(205, 205, 205);
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+  }
+  .button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 8px 15px rgba(0, 127, 0, 1);
+    color: rgb(0, 0, 0);
+    transform: translateY(2px);
+  }
