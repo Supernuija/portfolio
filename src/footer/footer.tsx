@@ -6,7 +6,7 @@ type FooterProps = {
     callback: () => void,
 }
 
-const ClickCount: React.FC<FooterProps> = ({ initialValue, callback }) => {
+const Footer: React.FC<FooterProps> = ({ initialValue, callback }) => {
     const [count, setCount] = useState(initialValue) 
   
     return (
@@ -22,4 +22,4 @@ const ClickCount: React.FC<FooterProps> = ({ initialValue, callback }) => {
     )
   }
   
-  export default ClickCount
+  export default Footer
